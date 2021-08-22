@@ -3,7 +3,7 @@ main .banner{
     height: 400px;
     background: url(../images/banner1.jpg) no-repeat 0px -190px;
     background-size: 100% auto;
-    
+    min-width: 1200px;
     /* background-color: rgba(0,0,0,0.5); */
 }
 main .content{
