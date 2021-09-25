@@ -20,6 +20,37 @@ body{
 }
 /* 轮播 */
 
+.js{
+    background: url('../images/bgbai.jpg') 785px 0 no-repeat;
+    /* height: 500px; */
+    /* background-size: cover; */
+    height: 594px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 1200px;
+    /* border: 1px solid #000; */
+    background-color: #fff;
+    border-radius: 30px;
+    
+}
+.js .title{
+    font-size: 26px;
+}
+.js h2{
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.js h2 span{
+    color: #f00;
+    font-weight: bold;
+}
+.js h2 span a{
+    text-decoration: none;
+    color: #f00;
+}
 
 
 /* 主体 */
@@ -32,9 +63,9 @@ main{
 }
 /* 服务项目 */
 main .top-1 p,
-main .top-1 h1,
+main .top-1 h3,
 main .fw p,
-main .fw h1{
+main .fw h3{
     font-size: 30px;
     color: rgb(248, 157, 25);
     text-align: center;
